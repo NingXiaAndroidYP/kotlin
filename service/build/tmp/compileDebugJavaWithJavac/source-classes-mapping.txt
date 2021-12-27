@@ -1,0 +1,23 @@
+com/fuusy/service/BR.java
+ com.fuusy.service.BR
+com/fuusy/service/BuildConfig.java
+ com.fuusy.service.BuildConfig
+com/fuusy/service/repo/UserDao_Impl.java
+ com.fuusy.service.repo.UserDao_Impl
+ com.fuusy.service.repo.UserDao_Impl$1
+ com.fuusy.service.repo.UserDao_Impl$2
+ com.fuusy.service.repo.UserDao_Impl$3
+ com.fuusy.service.repo.UserDao_Impl$4
+com/fuusy/service/DataBindingTriggerClass.java
+ com.fuusy.service.DataBindingTriggerClass
+com/fuusy/service/DataBinderMapperImpl.java
+ com.fuusy.service.DataBinderMapperImpl
+ com.fuusy.service.DataBinderMapperImpl$InnerBrLookup
+ com.fuusy.service.DataBinderMapperImpl$InnerLayoutIdLookup
+androidx/databinding/library/baseAdapters/BR.java
+ androidx.databinding.library.baseAdapters.BR
+androidx/databinding/DataBindingComponent.java
+ androidx.databinding.DataBindingComponent
+com/fuusy/service/repo/UserDB_Impl.java
+ com.fuusy.service.repo.UserDB_Impl
+ com.fuusy.service.repo.UserDB_Impl$1

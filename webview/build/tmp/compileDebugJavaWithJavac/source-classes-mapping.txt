@@ -1,0 +1,26 @@
+com/alibaba/android/arouter/routes/ARouter$$Group$$module_web.java
+ com.alibaba.android.arouter.routes.ARouter$$Group$$module_web
+com/fuusy/webview/DataBindingTriggerClass.java
+ com.fuusy.webview.DataBindingTriggerClass
+com/fuusy/webview/databinding/ActivityWebviewBinding.java
+ com.fuusy.webview.databinding.ActivityWebviewBinding
+com/fuusy/webview/DataBinderMapperImpl.java
+ com.fuusy.webview.DataBinderMapperImpl
+ com.fuusy.webview.DataBinderMapperImpl$InnerBrLookup
+ com.fuusy.webview.DataBinderMapperImpl$InnerLayoutIdLookup
+com/fuusy/webview/BR.java
+ com.fuusy.webview.BR
+com/fuusy/webview/BuildConfig.java
+ com.fuusy.webview.BuildConfig
+androidx/databinding/library/baseAdapters/BR.java
+ androidx.databinding.library.baseAdapters.BR
+com/alibaba/android/arouter/routes/ARouter$$Root$$webview.java
+ com.alibaba.android.arouter.routes.ARouter$$Root$$webview
+com/fuusy/webview/databinding/ActivityWebviewBindingImpl.java
+ com.fuusy.webview.databinding.ActivityWebviewBindingImpl
+androidx/databinding/DataBindingComponent.java
+ androidx.databinding.DataBindingComponent
+com/alibaba/android/arouter/routes/ARouter$$Providers$$webview.java
+ com.alibaba.android.arouter.routes.ARouter$$Providers$$webview
+com/fuusy/common/BR.java
+ com.fuusy.common.BR

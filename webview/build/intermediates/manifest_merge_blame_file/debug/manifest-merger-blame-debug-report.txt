@@ -1,0 +1,19 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.fuusy.webview" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="21"
+6-->E:\android\work\kotlin\webview\src\main\manifest\AndroidManifest.xml
+7        android:targetSdkVersion="30" />
+7-->E:\android\work\kotlin\webview\src\main\manifest\AndroidManifest.xml
+8
+9    <application>
+9-->E:\android\work\kotlin\webview\src\main\manifest\AndroidManifest.xml:4:5-7:19
+10        <activity android:name="com.fuusy.webview.WebviewActivity" >
+10-->E:\android\work\kotlin\webview\src\main\manifest\AndroidManifest.xml:5:9-6:20
+10-->E:\android\work\kotlin\webview\src\main\manifest\AndroidManifest.xml:5:19-50
+11        </activity>
+12    </application>
+13
+14</manifest>
