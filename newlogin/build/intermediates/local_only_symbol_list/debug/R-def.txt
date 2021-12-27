@@ -1,0 +1,37 @@
+R_DEF: Internal format may change without notice
+local
+anim slide_left_in
+anim slide_left_out
+anim slide_right_in
+anim slide_right_out
+color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id ac_changePersonFg
+id accountLoginFg
+id bt_login
+id container
+id et_password
+id et_user_name
+id iv_phone
+id login_nav
+id mobileLoginFg
+id to_registerFg
+id toolbar
+id tv_password
+id tv_to_register
+layout ac_login
+layout fg_login
+layout fg_register
+mipmap ic_android
+mipmap ic_launcher
+mipmap ic_launcher_round
+navigation login_nav
+string app_name
+style Theme.Kotlinframe

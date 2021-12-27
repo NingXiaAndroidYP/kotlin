@@ -1,0 +1,24 @@
+com/fuusy/personal/BuildConfig.java
+ com.fuusy.personal.BuildConfig
+com/fuusy/personal/BR.java
+ com.fuusy.personal.BR
+com/fuusy/personal/DataBinderMapperImpl.java
+ com.fuusy.personal.DataBinderMapperImpl
+ com.fuusy.personal.DataBinderMapperImpl$InnerBrLookup
+ com.fuusy.personal.DataBinderMapperImpl$InnerLayoutIdLookup
+com/fuusy/personal/databinding/FragmentPersonalBindingImpl.java
+ com.fuusy.personal.databinding.FragmentPersonalBindingImpl
+com/fuusy/personal/databinding/FragmentPersonalBinding.java
+ com.fuusy.personal.databinding.FragmentPersonalBinding
+com/fuusy/personal/databinding/ActivityPersonalBinding.java
+ com.fuusy.personal.databinding.ActivityPersonalBinding
+com/fuusy/personal/databinding/ActivityPersonalBindingImpl.java
+ com.fuusy.personal.databinding.ActivityPersonalBindingImpl
+androidx/databinding/library/baseAdapters/BR.java
+ androidx.databinding.library.baseAdapters.BR
+androidx/databinding/DataBindingComponent.java
+ androidx.databinding.DataBindingComponent
+com/fuusy/personal/DataBindingTriggerClass.java
+ com.fuusy.personal.DataBindingTriggerClass
+com/fuusy/common/BR.java
+ com.fuusy.common.BR

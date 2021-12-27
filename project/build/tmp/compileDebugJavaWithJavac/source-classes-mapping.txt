@@ -1,0 +1,32 @@
+com/fuusy/project/DataBindingTriggerClass.java
+ com.fuusy.project.DataBindingTriggerClass
+com/fuusy/project/databinding/FragmentProjectContentBindingImpl.java
+ com.fuusy.project.databinding.FragmentProjectContentBindingImpl
+com/fuusy/project/databinding/FragmentProjectBinding.java
+ com.fuusy.project.databinding.FragmentProjectBinding
+androidx/databinding/library/baseAdapters/BR.java
+ androidx.databinding.library.baseAdapters.BR
+com/fuusy/project/databinding/ItemProjectContentBinding.java
+ com.fuusy.project.databinding.ItemProjectContentBinding
+com/fuusy/common/BR.java
+ com.fuusy.common.BR
+com/fuusy/project/BuildConfig.java
+ com.fuusy.project.BuildConfig
+com/fuusy/project/databinding/ItemProjectAllBinding.java
+ com.fuusy.project.databinding.ItemProjectAllBinding
+com/fuusy/project/databinding/FragmentProjectBindingImpl.java
+ com.fuusy.project.databinding.FragmentProjectBindingImpl
+com/fuusy/project/databinding/ItemProjectContentBindingImpl.java
+ com.fuusy.project.databinding.ItemProjectContentBindingImpl
+com/fuusy/project/DataBinderMapperImpl.java
+ com.fuusy.project.DataBinderMapperImpl
+ com.fuusy.project.DataBinderMapperImpl$InnerBrLookup
+ com.fuusy.project.DataBinderMapperImpl$InnerLayoutIdLookup
+com/fuusy/project/databinding/FragmentProjectContentBinding.java
+ com.fuusy.project.databinding.FragmentProjectContentBinding
+com/fuusy/project/BR.java
+ com.fuusy.project.BR
+com/fuusy/project/databinding/ItemProjectAllBindingImpl.java
+ com.fuusy.project.databinding.ItemProjectAllBindingImpl
+androidx/databinding/DataBindingComponent.java
+ androidx.databinding.DataBindingComponent

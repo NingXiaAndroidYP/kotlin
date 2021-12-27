@@ -1,0 +1,25 @@
+R_DEF: Internal format may change without notice
+local
+color colorAccent
+color colorPrimary
+color colorPrimaryDark
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id fragment_personal
+id iv_user_icon
+id navigation_personal
+id setting_item_about
+id setting_item_coin
+id setting_item_my_collect
+id setting_item_tool
+id tv_name_user
+id view
+layout activity_personal
+layout fragment_personal
+mipmap ic_android
+mipmap ic_launcher
+mipmap ic_launcher_round
+navigation navi_personal
+string app_name
+string personal_go_to_login
+style AppTheme

@@ -1,0 +1,34 @@
+com/fuusy/newlogin/DataBindingTriggerClass.java
+ com.fuusy.newlogin.DataBindingTriggerClass
+com/alibaba/android/arouter/routes/ARouter$$Root$$newlogin.java
+ com.alibaba.android.arouter.routes.ARouter$$Root$$newlogin
+com/fuusy/newlogin/databinding/FgRegisterBinding.java
+ com.fuusy.newlogin.databinding.FgRegisterBinding
+com/fuusy/newlogin/databinding/FgLoginBindingImpl.java
+ com.fuusy.newlogin.databinding.FgLoginBindingImpl
+com/fuusy/newlogin/DataBinderMapperImpl.java
+ com.fuusy.newlogin.DataBinderMapperImpl
+ com.fuusy.newlogin.DataBinderMapperImpl$InnerBrLookup
+ com.fuusy.newlogin.DataBinderMapperImpl$InnerLayoutIdLookup
+androidx/databinding/library/baseAdapters/BR.java
+ androidx.databinding.library.baseAdapters.BR
+com/fuusy/common/BR.java
+ com.fuusy.common.BR
+com/fuusy/newlogin/BuildConfig.java
+ com.fuusy.newlogin.BuildConfig
+com/fuusy/newlogin/databinding/FgRegisterBindingImpl.java
+ com.fuusy.newlogin.databinding.FgRegisterBindingImpl
+com/alibaba/android/arouter/routes/ARouter$$Providers$$newlogin.java
+ com.alibaba.android.arouter.routes.ARouter$$Providers$$newlogin
+com/fuusy/newlogin/BR.java
+ com.fuusy.newlogin.BR
+com/fuusy/newlogin/databinding/AcLoginBindingImpl.java
+ com.fuusy.newlogin.databinding.AcLoginBindingImpl
+com/alibaba/android/arouter/routes/ARouter$$Group$$module_login.java
+ com.alibaba.android.arouter.routes.ARouter$$Group$$module_login
+com/fuusy/newlogin/databinding/FgLoginBinding.java
+ com.fuusy.newlogin.databinding.FgLoginBinding
+com/fuusy/newlogin/databinding/AcLoginBinding.java
+ com.fuusy.newlogin.databinding.AcLoginBinding
+androidx/databinding/DataBindingComponent.java
+ androidx.databinding.DataBindingComponent

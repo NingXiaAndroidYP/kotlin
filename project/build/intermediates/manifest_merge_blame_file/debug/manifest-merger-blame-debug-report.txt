@@ -1,0 +1,27 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.fuusy.project" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="21"
+6-->E:\android\work\kotlin\project\src\main\manifest\AndroidManifest.xml
+7        android:targetSdkVersion="30" />
+7-->E:\android\work\kotlin\project\src\main\manifest\AndroidManifest.xml
+8
+9    <application
+9-->E:\android\work\kotlin\project\src\main\manifest\AndroidManifest.xml:5:5-13:19
+10        android:allowBackup="true"
+10-->E:\android\work\kotlin\project\src\main\manifest\AndroidManifest.xml:6:9-35
+11        android:icon="@mipmap/ic_android"
+11-->E:\android\work\kotlin\project\src\main\manifest\AndroidManifest.xml:7:9-42
+12        android:label="@string/app_name"
+12-->E:\android\work\kotlin\project\src\main\manifest\AndroidManifest.xml:8:9-41
+13        android:roundIcon="@mipmap/ic_android"
+13-->E:\android\work\kotlin\project\src\main\manifest\AndroidManifest.xml:9:9-47
+14        android:supportsRtl="true"
+14-->E:\android\work\kotlin\project\src\main\manifest\AndroidManifest.xml:10:9-35
+15        android:theme="@style/AppTheme" >
+15-->E:\android\work\kotlin\project\src\main\manifest\AndroidManifest.xml:11:9-40
+16    </application>
+17
+18</manifest>

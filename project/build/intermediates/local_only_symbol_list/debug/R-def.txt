@@ -1,0 +1,34 @@
+R_DEF: Internal format may change without notice
+local
+color colorAccent
+color colorPrimary
+color colorPrimaryDark
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable shape_bgh
+id action_fragment_project_to_projectContentFragment
+id cl_project
+id cl_project_item
+id fragment_project
+id iv_project_icon
+id ll_toolbar
+id navigation_dashboard
+id projectContentFragment
+id rv_project_all
+id rv_project_content
+id tv_project_name
+id tv_project_title
+id tv_sub_name
+layout activity_project
+layout fragment_project
+layout fragment_project_content
+layout item_project_all
+layout item_project_content
+mipmap bg1
+mipmap ic_android
+mipmap ic_launcher
+mipmap ic_launcher_round
+navigation navi_project
+string app_name
+string hello_blank_fragment
+style AppTheme
