@@ -16,7 +16,7 @@ class MainActivity : BaseActivity<ActivityMainBinding>() {
     private var currentNavController: LiveData<NavController>? = null
 
     override fun getLayoutId(): Int {
-        return R.layout.ac_home
+        return R.layout.activity_main
     }
 
     override fun initData(savedInstanceState: Bundle?) {

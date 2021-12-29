@@ -1,10 +1,13 @@
 package com.fuusy.common.base
 
 import android.util.Log
+import com.alibaba.android.arouter.launcher.ARouter
 import com.fuusy.common.network.BaseResp
 import com.fuusy.common.network.DataState
 import com.fuusy.common.network.ResState
 import com.fuusy.common.network.net.StateLiveData
+import com.fuusy.common.support.RouterPath
+import com.fuusy.common.utils.ToastUtil
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.coroutineScope
@@ -102,6 +105,9 @@ open class BaseRepository {
                     baseResp.dataState = DataState.STATE_SUCCESS
                 }
 
+            } else if (baseResp.code==10015) {
+                //跳转到登录
+                ARouter.getInstance().build(RouterPath.Login.PATH_LOGIN).navigation()
             } else {
                 //服务器请求错误
                 baseResp.dataState = DataState.STATE_FAILED
@@ -110,6 +116,7 @@ open class BaseRepository {
             //非后台返回错误，捕获到的异常
             baseResp.dataState = DataState.STATE_ERROR
             baseResp.error = e
+            ToastUtil.show(baseResp.error.toString())
         } finally {
             stateLiveData.postValue(baseResp)
         }

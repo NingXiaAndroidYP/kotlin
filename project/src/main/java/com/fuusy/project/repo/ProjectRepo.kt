@@ -22,9 +22,7 @@ class ProjectRepo(private val service: ProjectApi) : BaseRepository() {
      * @param stateLiveData 带有请求状态的LiveData
      */
     suspend fun loadProjectTree(stateLiveData: StateLiveData<List<ProjectTree>>) {
-        executeResp(
-            { service.loadProjectTree() }
-            , stateLiveData)
+        executeResp({ service.loadProjectTree() }, stateLiveData)
     }
 
     /**

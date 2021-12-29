@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/fragment_home"
-        android:name="com.fuusy.home.ui.HomeFragment"
-        tools:layout="@layout/fragment_home"/>
+        android:name="com.fuusy.newhome.ui.fragment.HomeFg"
+        tools:layout="@layout/fg_home"/>
 
 </navigation>

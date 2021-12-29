@@ -11,6 +11,7 @@ import com.fuusy.common.loadsir.ErrorCallback
 import com.fuusy.common.loadsir.LoadingCallback
 import com.fuusy.common.utils.AppHelper
 import com.fuusy.home.di.moduleHome
+import com.fuusy.newhome.di.moduleNewHome
 import com.fuusy.newlogin.di.moduleNewLogin
 
 import com.fuusy.personal.di.modulePersonal
@@ -25,7 +26,7 @@ import org.koin.core.context.startKoin
 class MainApp : Application() {
 
     private val modules = arrayListOf(
-        moduleHome, modulePersonal, moduleProject,moduleNewLogin
+        moduleHome, modulePersonal, moduleProject,moduleNewLogin,moduleNewHome
     )
 
     override fun onCreate() {

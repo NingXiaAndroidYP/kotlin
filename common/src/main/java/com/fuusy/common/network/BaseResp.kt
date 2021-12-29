@@ -7,7 +7,6 @@ class BaseResp<T>{
     var code = -1
     var msg: String? = null
     var data: T? = null
-        private set
     var dataState: DataState? = null
     var error: Throwable? = null
     val isSuccess: Boolean
