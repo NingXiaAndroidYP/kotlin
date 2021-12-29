@@ -11,17 +11,6 @@ import retrofit2.http.POST
 interface LoginApi {
 
     /**
-     * 注册
-     */
-    @FormUrlEncoded
-    @POST("user/register")
-    suspend fun register(
-        @Field("username") username: String,
-        @Field("password") password: String,
-        @Field("repassword") repassword: String
-    ): BaseResp<UserInfo>
-
-    /**
      * 登录
      */
     @POST("login/app/signIn")
