@@ -36,7 +36,7 @@ class MainActivity : BaseActivity<ActivityMainBinding>() {
      */
     private fun setupBottomNavigationBar() {
         val navGraphIds =
-            listOf(R.navigation.navi_home, R.navigation.navi_project, R.navigation.navi_personal)
+            listOf(R.navigation.navi_home, R.navigation.navi_questions, R.navigation.navi_personal)
 
         val controller = mBinding?.navView?.setupWithNavController(
             navGraphIds = navGraphIds,
@@ -44,19 +44,19 @@ class MainActivity : BaseActivity<ActivityMainBinding>() {
             containerId = R.id.nav_host_container,
             intent = intent
         )
-        controller?.observe(this, Observer { navController ->
-            //setupActionBarWithNavController(navController)
-            navController.addOnDestinationChangedListener { _, destination, _ ->
-                run {
-                    val id = destination.id
-                    if (id == R.id.projectContentFragment) {
-                        mBinding?.navView?.visibility = View.GONE
-                    } else {
-                        mBinding?.navView?.visibility = View.VISIBLE
-                    }
-                }
-            }
-        })
+//        controller?.observe(this, Observer { navController ->
+//            //setupActionBarWithNavController(navController)
+//            navController.addOnDestinationChangedListener { _, destination, _ ->
+//                run {
+//                    val id = destination.id
+//                    if (id == R.id.projectContentFragment) {
+//                        mBinding?.navView?.visibility = View.GONE
+//                    } else {
+//                        mBinding?.navView?.visibility = View.VISIBLE
+//                    }
+//                }
+//            }
+//        })
         currentNavController = controller
     }
 
