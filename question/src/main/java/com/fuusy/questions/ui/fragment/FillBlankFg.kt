@@ -16,7 +16,7 @@ import java.util.*
 import kotlin.collections.ArrayList
 
 @Route(path = RouterPath.Questions.PATH_QUESTIONS)
-class QuestionFg : BaseFragment<FgQuestionBinding>() {
+class FillBlankFg : BaseFragment<FgQuestionBinding>() {
     private var mCurPos: Int = 0
 
 
@@ -46,7 +46,7 @@ class QuestionFg : BaseFragment<FgQuestionBinding>() {
             recyclerview.adapter = adapter
             adapter.setOnItemClick(object : QuestionAdapter.onItemClick {
                 override fun prePage() {
-                    startActivity(Intent(activity, QuestionAc::class.java))
+
                 }
 
                 override fun nextPage() {

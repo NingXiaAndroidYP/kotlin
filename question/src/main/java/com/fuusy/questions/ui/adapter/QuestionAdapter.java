@@ -90,6 +90,15 @@ public class QuestionAdapter extends RecyclerView.Adapter<QuestionAdapter.VideoH
                 }
             }
         });
+        holder.tvMost.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(onItemClick!=null){
+                    onItemClick.prePage();
+                }
+            }
+        });
+
 
     }
 
@@ -110,6 +119,7 @@ public class QuestionAdapter extends RecyclerView.Adapter<QuestionAdapter.VideoH
         private TextView tvb;
         private TextView tvc;
         private TextView tvd;
+        private TextView tvMost;
 
         VideoHolder(View itemView) {
             super(itemView);
@@ -118,6 +128,8 @@ public class QuestionAdapter extends RecyclerView.Adapter<QuestionAdapter.VideoH
             tvb = itemView.findViewById(R.id.tv_b);
             tvc = itemView.findViewById(R.id.tv_c);
             tvd = itemView.findViewById(R.id.tv_d);
+            tvMost = itemView.findViewById(R.id.tv_most);
+
             itemView.setTag(this);
         }
     }
