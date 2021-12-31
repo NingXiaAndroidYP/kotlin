@@ -58,4 +58,12 @@ class RouterPath {
         private const val WEB = "/module_web"
         const val PATH_WEBVIEW = WEB + "/WebviewActivity"
     }
+
+    /**
+     * questions 组件
+     */
+    object Questions {
+        private const val QUESTIONS = "/module_Questions"
+        const val PATH_QUESTIONS = QUESTIONS + "/QuestionFg"
+    }
 }

@@ -24,5 +24,6 @@ dependencies {
        // implementation project(path: ':login')
         implementation project(path: ':newlogin')
         implementation project(path: ':newhome')
+        implementation project(path: ':question')
     }
 }
