@@ -8,19 +8,21 @@ import com.fuusy.newhome.bean.ArticleBean
 import com.fuusy.newhome.repo.HomeRepo
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
+import java.io.File
 
 class HomeViewModel(private val homeRepo: HomeRepo) : BaseViewModel() {
-    val liveData = StateLiveData<BaseListDataBean<ArticleBean>>();
+    val goverMentLiveData = StateLiveData<BaseListDataBean<ArticleBean>>()
+    val propagandLiveData = StateLiveData<BaseListDataBean<ArticleBean>>()
 
-     fun goverMent(map: Map<String, Any>) {
-        viewModelScope.launch(Dispatchers.IO){
-            homeRepo.goverMent(map,liveData);
+    fun goverMent(map: Map<String, Any>) {
+        viewModelScope.launch(Dispatchers.IO) {
+            homeRepo.goverMent(map, goverMentLiveData);
         }
     }
 
-     fun propagand(map: Map<String, Any>) {
+    fun propagand(map: Map<String, Any>) {
         viewModelScope.launch(Dispatchers.IO) {
-            homeRepo.propagand(map,liveData);
+            homeRepo.propagand(map, propagandLiveData)
         }
     }
 }

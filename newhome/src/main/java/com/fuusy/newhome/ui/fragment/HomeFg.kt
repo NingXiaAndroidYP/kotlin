@@ -1,6 +1,8 @@
 package com.fuusy.newhome.ui.fragment
 
+import android.util.Log
 import android.view.View
+import androidx.lifecycle.lifecycleScope
 import com.fuusy.common.base.BaseFragment
 import com.fuusy.common.network.BaseListDataBean
 import com.fuusy.common.network.net.IStateObserver
@@ -22,6 +24,7 @@ class HomeFg : BaseFragment<FgHomeBinding>() {
         httpMap["size"] = 3
         httpMap["status"] = "1"
         homeViewModel.goverMent(httpMap)
+
         homeViewModel.propagand(httpMap)
     }
 
@@ -30,7 +33,7 @@ class HomeFg : BaseFragment<FgHomeBinding>() {
     }
 
     fun registerObserve() {
-        homeViewModel.liveData.observe(this,
+        homeViewModel.goverMentLiveData.observe(this,
             object : IStateObserver<BaseListDataBean<ArticleBean>>(null) {
                 override fun onReload(v: View?) {
                     TODO("Not yet implemented")
@@ -38,10 +41,18 @@ class HomeFg : BaseFragment<FgHomeBinding>() {
 
                 override fun onDataChange(data: BaseListDataBean<ArticleBean>?) {
                     super.onDataChange(data)
-
+                    Log.d("yinping",data.toString())
+                }
+            })
+        homeViewModel.propagandLiveData.observe(this,
+            object : IStateObserver<BaseListDataBean<ArticleBean>>(null) {
+                override fun onReload(v: View?) {
                 }
 
-
+                override fun onDataChange(data: BaseListDataBean<ArticleBean>?) {
+                    super.onDataChange(data)
+                    Log.d("yinping",data.toString())
+                }
             })
     }
 
